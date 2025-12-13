@@ -14,7 +14,7 @@ namespace ProyectoMayelayork1
         public Docente ()
         {
             NumeroEmpleado = string.Empty;
-            Materia = string.Empty
+            Materia = string.Empty;
         }
         public Docente (string numeroEmpleado, stringg materia)
         {
