@@ -8,7 +8,18 @@ namespace ProyectoMayelayork1
 {
     internal class Docente : Usuario
     {
-        public string NumeroEmpleado { get; }
-        public string Materia { get; }
+        public string NumeroEmpleado { get; set; }
+        public string Materia { get; set; } 
+
+        public Docente ()
+        {
+            NumeroEmpleado = string.Empty;
+            Materia = string.Empty
+        }
+        public Docente (string numeroEmpleado, stringg materia)
+        {
+            NumeroEmpleado = numeroEmpleado;
+            Materia = materia;
+        }
     }
 }
