@@ -8,8 +8,11 @@ namespace ProyectoMayelayork1
 {
     internal class Alumno : Usuario
     {
-        public string Matricula { get; }
-        public string Carrera { get; }
-        public string Semestre { get; }
+        public string Matricula { get; set; }
+        public string Carrera { get; set; }
+        public string Semestre { get; set; }
+
+        public Alumno()
+        
     }
 }
