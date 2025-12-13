@@ -15,8 +15,8 @@ namespace ProyectoMayelayork1
         public Alumno()
         {
               Matricula = string.Empty;
-              Carrera = string.Empty
-              Semestre = string,Empty
+              Carrera = string.Empty;
+              Semestre = string,Empty;
         }
         public (string matricula, string carrera, string semestre)
         {
