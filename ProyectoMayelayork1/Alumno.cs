@@ -24,6 +24,10 @@ namespace ProyectoMayelayork1
               Carrera = carrera;
               Semestre = semesstre;
         }
+                public string MostrarMaterias()
+        {
+                       return;
+        }
         
     }
 }
