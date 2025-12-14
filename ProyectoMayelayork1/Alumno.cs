@@ -24,10 +24,16 @@ namespace ProyectoMayelayork1
               Carrera = carrera;
               Semestre = semesstre;
         }
-        public string MostrarMaterias()
-        {
-               string Cadena = "";
-               return Cadena;
-        }
+    public override string ToString()
+    {
+      string s = "";
+      Node? h = head;
+      while (h != null)
+      {
+        s += h.ToString() + Environment.NewLine;
+        h = h.Next;
+      }
+      return s;
+    }
     }
 }
