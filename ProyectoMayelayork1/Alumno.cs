@@ -24,11 +24,10 @@ namespace ProyectoMayelayork1
               Carrera = carrera;
               Semestre = semesstre;
         }
-                public string MostrarMaterias()
+        public string MostrarMaterias()
         {
-                       string Cadena = "";
-                       return Cadena;
+               string Cadena = "";
+               return Cadena;
         }
-        
     }
 }
