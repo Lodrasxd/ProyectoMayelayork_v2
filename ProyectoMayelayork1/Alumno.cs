@@ -26,7 +26,8 @@ namespace ProyectoMayelayork1
         }
                 public string MostrarMaterias()
         {
-                       return;
+                       string Cadena = "";
+                       return Cadena;
         }
         
     }
