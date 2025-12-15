@@ -36,13 +36,14 @@
             btn_Login = new Button();
             btn_Cancelar = new Button();
             link_CrearUser = new LinkLabel();
+            button1 = new Button();
             SuspendLayout();
             // 
             // txt_User
             // 
             txt_User.Location = new Point(523, 130);
             txt_User.Name = "txt_User";
-            txt_User.Size = new Size(100, 23);
+            txt_User.Size = new Size(240, 23);
             txt_User.TabIndex = 0;
             // 
             // txt_Passw
@@ -50,17 +51,17 @@
             txt_Passw.Location = new Point(524, 177);
             txt_Passw.Name = "txt_Passw";
             txt_Passw.PasswordChar = '*';
-            txt_Passw.Size = new Size(100, 23);
+            txt_Passw.Size = new Size(239, 23);
             txt_Passw.TabIndex = 1;
             // 
             // label_User
             // 
             label_User.AutoSize = true;
-            label_User.Location = new Point(441, 133);
+            label_User.Location = new Point(431, 133);
             label_User.Name = "label_User";
-            label_User.Size = new Size(47, 15);
+            label_User.Size = new Size(43, 15);
             label_User.TabIndex = 2;
-            label_User.Text = "Usuario";
+            label_User.Text = "Correo";
             // 
             // label_Passw
             // 
@@ -90,6 +91,7 @@
             btn_Login.TabIndex = 5;
             btn_Login.Text = "Login";
             btn_Login.UseVisualStyleBackColor = true;
+            btn_Login.Click += btn_Login_Click;
             // 
             // btn_Cancelar
             // 
@@ -110,12 +112,24 @@
             link_CrearUser.TabIndex = 7;
             link_CrearUser.TabStop = true;
             link_CrearUser.Text = "Click para crear un usuario nuevo";
+            link_CrearUser.LinkClicked += link_CrearUser_LinkClicked;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(381, 326);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 8;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(link_CrearUser);
             Controls.Add(btn_Cancelar);
             Controls.Add(btn_Login);
@@ -140,5 +154,6 @@
         private Button btn_Login;
         private Button btn_Cancelar;
         private LinkLabel link_CrearUser;
+        private Button button1;
     }
 }

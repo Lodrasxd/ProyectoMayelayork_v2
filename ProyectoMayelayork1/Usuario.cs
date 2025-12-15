@@ -14,9 +14,9 @@ namespace ProyectoMayelayork1
 
         public Usuario ()
         {
-            Nombre = string.Empty;
-            Correo = string.Empty;
-            Contraseña = string.Empty;
+            Nombre = this.Nombre;
+            Correo = this.Correo;
+            Contraseña = this.Contraseña;
         }
         public Usuario (string nombre, string correo, string contraseña)
         {

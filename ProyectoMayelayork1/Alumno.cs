@@ -16,14 +16,17 @@ namespace ProyectoMayelayork1
         {
               Matricula = string.Empty;
               Carrera = string.Empty;
-              Semestre = string,Empty;
+              Semestre = string.Empty;
         }
-        public (string matricula, string carrera, string semestre)
+        public Alumno(string matricula, string carrera, string semestre)
         {
               Matricula = matricula;
               Carrera = carrera;
-              Semestre = semesstre;
+              Semestre = semestre;
         }
-        
+        public override string ToString()
+        {
+            return $"Nombre: {Nombre}, Correo: {Correo}, Matrícula: {Matricula}, Carrera: {Carrera}, Semestre: {Semestre}";
+        }
     }
 }

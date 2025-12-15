@@ -16,10 +16,14 @@ namespace ProyectoMayelayork1
             NumeroEmpleado = string.Empty;
             Materia = string.Empty;
         }
-        public Docente (string numeroEmpleado, stringg materia)
+        public Docente (string numeroEmpleado, string materia)
         {
             NumeroEmpleado = numeroEmpleado;
             Materia = materia;
+        }
+        public override string ToString()
+        {
+            return $"Nombre: {Nombre}, Correo: {Correo}, Número de Empleado: {NumeroEmpleado}, Materia: {Materia}";
         }
     }
 }
