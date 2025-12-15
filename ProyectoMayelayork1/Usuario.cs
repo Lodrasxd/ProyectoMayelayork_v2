@@ -12,13 +12,13 @@ namespace ProyectoMayelayork1
         public string Correo { get; set; }
         public string Contraseña { get; set; }
 
-        public Usuario? ()
+        public Usuario ()
         {
             Nombre = this.Nombre;
             Correo = this.Correo;
             Contraseña = this.Contraseña;
         }
-        public Usuario? (string nombre, string correo, string contraseña)
+        public Usuario (string nombre, string correo, string contraseña)
         {
             Nombre = nombre;
             Correo = correo;
